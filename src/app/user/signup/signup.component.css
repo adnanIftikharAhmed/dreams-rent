@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+body {
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+	background-color:#f7f7f7;
+}
+* {box-sizing: border-box}
+
+/* Add padding to container elements */
+.container {
+    padding: 20px;
+      width:500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+      border:1px solid #ccc;
+      border-radius:10px;
+      background:white;
+  -webkit-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  -moz-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  }
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+select {
+  width: 18%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+
+input[type=phone] {
+  width: 81%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=phone]:focus, select:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #0eb7f4;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+	font-size:16px;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+	border-radius:10px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+/* Change styles for signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .signupbtn {
+     width: 100%;
+  }
+}
+.forgot-link{
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+}
+.sign-up{
+font-size: 14px;
+    margin: 0 0 40px;
+    padding: 0;
+    text-decoration: none;
+}
+.forgot-pswrd{
+    padding: 5px;
+}
+.form-body{
+    width: 635px;
+    position: absolute;
+    top: 560px;
+}
+
+.psw{
+    font-weight: 600;
+    color: #2F2F2F;
+}
+.btn-sign-in{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px;
+    background-color: black
+}
+.rem-me{
+    padding: 5px;
+}
+ .login-or {
+    color: #828282;
+    margin: 20px auto 20px;
+    padding: 20px 0 20px;
+    position: relative;
+    max-width: 385px;
+}
+.or-line {
+    background-color: #EDECF8;
+    height: 1px;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: block;
+}
+.span-or-log {
+    background-color: #ffffff;
+    color: #828282;
+    display: block;
+    left: 15%;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+    width: 280px;
+}
+.social-login {
+    text-align: center;
+}
+.login-wrapper .loginbox .login-auth .social-login a {
+    background: #F1F1F1;
+    border: 1px solid #F1F1F1;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    text-align: center;
+    margin: 0 0 15px;
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: #28283C;
+    border-radius: 4px;
+}
+.login-wrapper .loginbox .login-auth .dont-have {
+    color: #828282;
+    margin-top: 30px;
+}
+.login-wrapper .loginbox .login-auth .dont-have a {
+    color: #127384;
+}
+.social-login a {
+    background: #F1F1F1;
+    border: 1px solid #F1F1F1;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    text-align: center;
+    margin: 0 0 15px;
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: #28283C;
+    border-radius: 4px;
+}
+.s-icons{
+    display: inline-flex;
+    margin-right: 8px;
+    color: #828282;
+}
+.img-fluidd {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-darkk{
+    margin: auto;
+    display: block;
+}
+.secondary-header {
+    background: #FFFFFF;
+    padding: 22px;
+    box-shadow: 0px 4px 24px rgba(225, 225, 225, 0.25);
+}
+.secondary-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.firstHeading{
+    margin: 0 0 10px;
+    font-size: 28px;
+    font-weight: 700;
+}
+.form-wrapper{
+    width: 100%;
+    height: 100ch;
+    vertical-align: middle;
+    margin: 0;
+    padding: 100px 0;
+    background: #FCFBFB;  
+}
+.centercopyright{
+    text-align: center;
+      padding-top: 88px;
+      font-size: 13px;
+  }

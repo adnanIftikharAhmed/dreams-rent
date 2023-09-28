@@ -1,0 +1,291 @@
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+    transition-timing-function: ease;
+}
+[data-aos][data-aos][data-aos-duration="1200"], body[data-aos-duration="1200"] [data-aos] {
+    transition-duration: 1.2s;
+}
+.footer {
+    background: #201F1D;
+    position: relative;
+}
+.footer .footer-top {
+    position: relative;
+    z-index: 99;
+    margin: 0;
+    padding: 60px 0;
+}
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: opacity,transform;
+}
+[data-aos=fade-down] {
+    transform: translate3d(0,-100px,0);
+}
+@media (min-width: 992px){
+.col-lg-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+}
+@media (min-width: 768px){
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+}
+@media (min-width: 992px){
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+}
+
+.footer .footer-widget .footer-title {
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 40px;
+}
+h5 {
+    font-size: 18px;
+}
+.footer::before {
+    content: "";
+    background: url(../../../assets/footer-left.png) no-repeat;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 97px;
+    height: 102px;
+    background-size: cover;
+}
+.footer .footer-widget .footer-title:before {
+    content: "";
+    background: #FCB215;
+    width: 27px;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    bottom: -80%;
+}
+.footer .footer-widget .footer-title {
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 40px;
+}
+.footer .footer-widget.footer-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer .footer-menu ul li {
+    margin: 0 0 20px;
+    list-style: none;
+}
+
+.footer .footer-menu ul li a {
+    color: #828282;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+a {
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.footer .footer-contact .footer-contact-info .update-form .form-control {
+    min-height: 55px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 100px 12px 40px;
+    color: #828282;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+@media (min-width: 992px){
+.col-lg-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+}
+.footer .footer-contact .footer-contact-info .footer-address {
+    margin-bottom: 20px;
+}
+.footer .footer-contact .footer-contact-info .footer-address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.footer .footer-contact .footer-contact-info .footer-address span {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #FF9307;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+.grid-listview ul li a, .car-listing .pagination .previtem a, .car-listing .pagination .nextlink a, .list-btn .btn-filters, .modal .payment-success .check, .payment-method ul li a, .modal .available-for-ride, .car-details-slider.owl-carousel .owl-nav .owl-prev, .car-details-slider.owl-carousel .owl-nav .owl-next, .listing-feature ul li span, .specification-card .feature-img, .share-postsection .sharelink .share-img, .plan-selected, .pagination .pagination .previtem a, .pagination .pagination .nextlink a, .why-choose .card .card-body .choose-img, .listing-item .listing-content .listing-details-group ul, .table .dropdown-item, .table tbody td a.btn-action-icon, .fi-icon, .hi-icon, .footer-social-links .nav, .footer .footer-contact .footer-contact-info .footer-address span, .align-center {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+[class^="feather-"], [class*=" feather-"] {
+    font-family: 'feather' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.listview-car .card .card-body .listing-details-group ul li span img, .listview-car .card .card-body .listing-details-group ul li, .listview-car .card .card-body .blog-list-head .blog-list-rate h6, .listview-car .card .card-body .blog-list-head .blog-list-title .title-bottom h6, .sorting-div .product-filter-group .grid-listview ul, .sorting-div .product-filter-group .sortbyset, .sorting-div .product-filter-group, .list-btn .filter-list li ul li, .list-btn .filter-list .short-filter, .list-btn .filter-list, .order-confirmation .order-confirm-box .order-car, .payment-method .payment-checkbox label, .booking-details .booking-form .payment-btn, .modal .modal-footer a, .modal .booking-info.pay-amount label, .modal .booking-info.seat-select label, .review-list-rating li, .review-list-rating, .listing-feature ul li, .product-detail-head .details-btn a, .product-detail-head .details-btn, .product-detail-head .detail-page-head .camaro-location .camaro-locations-inner, .product-detail-head .detail-page-head .camaro-location, .product-detail-head .detail-page-head .list-rating, .product-detail-head .detail-page-head, .testimonials-section .review-box .review-details .list-rating .list-rating-star, .testimonials-section .review-box, .review-sec .sidebar-form, .review-sec .review-card .review-header-group .review-widget-header, .review-sec .review-card .review-header-group, .review-sec .reviewbox-list-rating p, .blogdetails-pagination ul, .tag-list .tags, .tag-list, .blogdetail-content .card-header, .bloglistleft-widget .post-author, .bloggrid-sidebar .post-author, .blogbanner-content .post-author, .blogbanner-content ul, .blog-section .rightsidebar .card h4, .blog-section .blog-content .blog-list-date .meta-item-list li .post-author, .blog-section .blog-content .meta-item li .post-author, .blog-section .blog-content .meta-item, .contact-section .contact-info-area .single-contact-info i, .serve-form .form-group .button-notific, .privacy-section .terms-policy ul li, .pagination, .login-wrapper .loginbox .login-auth .login-auth-wrap .sign-group, .login-wrapper .loginbox .login-auth, .user-app-group .userapp-heading .download-btn, .popular-slider-group .owl-carousel .owl-next i, .popular-slider-group .owl-carousel .owl-prev i, .listing-item .listing-content .listing-button .btn-order, .listing-item .listing-content .listing-location-details .listing-price h6, .listing-item .listing-content .listing-details-group ul li, .listing-item .listing-img .fav-item .fav-icon, .listing-item .listing-img .fav-item .featured-text, .popular-services .owl-carousel .owl-next i, .popular-services .owl-carousel .owl-prev i, .popular-services .listing-tabs-group ul li a, .search-box-banner .form-group-wrapp, .footer .footer-contact .footer-contact-info .footer-address .addr-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+}
+.footer .footer-contact .footer-contact-info .footer-address .addr-info a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+a {
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.footer .footer-contact .footer-contact-info .footer-address {
+    margin-bottom: 20px;
+}
+.footer .footer-contact .footer-contact-info .footer-address {
+    margin-bottom: 20px;
+}
+.footer .footer-contact .footer-contact-info .footer-address span {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #FF9307;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+.footer-social-widget {
+    margin: 20px 0 0;
+}
+.footer .footer-contact h6 {
+    font-size: 16px;
+    color: #DBDBDB;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+h6 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #111111;
+}
+.invoice-section .invoice-item-bill ul li:first-child, .table .dropdown-item, .footer-social-widget .nav-social {
+    justify-content: start;
+    -webkit-justify-content: start;
+    -ms-flex-pack: start;
+    list-style: none;
+    display: flex;
+}
+.footer-social-widget {
+    margin: 20px 0 0;
+}
+.footer-social-widget .nav-social li {
+    margin-right: 10px;
+}
+ol, ul {
+    padding-left: 0rem !important;
+}
+.facebook-icon{
+    font-size: 0px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 50px;
+    min-width: 36px;
+    height: 36px;
+}
+.footer .footer-menu ul li a:hover {
+    color: #FFA633;
+    padding-left: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.footer .footer-bottom {
+    background: #201F1D;
+    position: relative;
+    z-index: 99;
+    margin: 0;
+    padding: 20px 0;
+}
+.footer::after {
+    content: "";
+    background: url(../../../assets/footer-right.png) no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 393px;
+    height: 334px;
+    background-size: cover;
+}
+.footer .footer-bottom .copyright .copyright-text p {
+    color: #ffffff;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+.d-flex {
+    display: flex!important;
+}
+.footer .footer-bottom .copyright .vistors-details ul {
+    justify-content: end;
+    -webkit-justify-content: end;
+}
+.footer .footer-bottom .copyright .vistors-details ul li {
+    margin: 0;
+    padding: 0 8px 0;
+}
+.footer .footer-bottom .copyright .vistors-details ul li a {
+    background: #ffffff;
+    width: 46px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.feather-mail:before {
+    content: "\e98a";
+}
