@@ -22,6 +22,11 @@ const routes: Routes = [
   {
     path: 'forgotpassword',
     component: ForgotPasswordComponent
+  },
+  {
+    path: '',
+    redirectTo: 'homepage',
+    pathMatch: 'full',
   }
 ];
 

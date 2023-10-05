@@ -16,10 +16,10 @@
     <p>We'll send a confirmation code to your email.</p>
 
     <label for="email"><b>Email</b><span class="text-danger">*</span></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+    <input type="text" placeholder="Enter Email" name="email" [(ngModel)]="loginObj.identifier" required>
     
     <label for="psw"><b>Password</b><span class="text-danger">*</span></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" placeholder="Enter Password" name="psw" [(ngModel)]="loginObj.password" required>
 
       <br>
       <div class="forgot-pswrd">
@@ -32,7 +32,10 @@
 
     <div class="clearfix">
 
-      <button type="submit" class="btn-sign-in">Sign In</button>
+      <button type="submit" class="btn-sign-in" (click)="onLogin()">Sign In</button>
+      <div *ngIf="errorMessage" class="error-message">
+        {{ errorMessage }}
+      </div>
     </div>
     <div class="login-or">
         <span class="or-line"></span>

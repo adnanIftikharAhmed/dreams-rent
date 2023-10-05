@@ -8,7 +8,6 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
 
 @NgModule({
   declarations: [
-    SignupComponent,
     ForgotPasswordComponent,
     ChangePasswordComponent
   ],
