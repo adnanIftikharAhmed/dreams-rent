@@ -8,7 +8,7 @@ import { SignInComponent } from './user/sign-in/sign-in.component';
 import { FooterComponent } from './nav/footer/footer.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { SignupComponent } from './user/signup/signup.component';
-
+import { ProductDetailsComponent } from './screens/product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,8 @@ import { SignupComponent } from './user/signup/signup.component';
     HeaderComponent,
     SignInComponent,
     FooterComponent,
-    SignupComponent
+    SignupComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,

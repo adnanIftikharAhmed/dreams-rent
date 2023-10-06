@@ -311,11 +311,12 @@ body {
     padding: 10px 23px;
     text-transform: capitalize;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 16px; 
     color: #2f2f2f;
     border-radius: 6px;
     display: flex;
-    text-decoration: none;
+    text-decoration: none; 
+    align-items: center;
 }
 
 .popular-services .listing-tabs-group ul li a span {
